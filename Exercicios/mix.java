@@ -4,7 +4,7 @@ class Turma{
   private Integer quantidadeAlunos;
   private boolean ativa;
 
-  public Turma(String nome ,int quantidadeAlunos){
+  public Turma(String nome, Integer quantidadeAlunos){
     this.nome = nome;
     this.quantidadeAlunos = quantidadeAlunos;
     this.ativa = true;
